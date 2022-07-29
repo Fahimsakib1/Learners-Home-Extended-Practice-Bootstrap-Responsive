@@ -11,6 +11,31 @@ img{
     height: 100vh;
 }
 
+/* Nav Bar Custom CSS */
+
+.nav-text-dark{
+    color: black;
+}
+.home:hover{
+    color: blue;
+}
+
+.courses:hover{
+    color: blue;
+}
+
+.courses:hover{
+    color: blue;
+}
+
+.instructors:hover{
+    color: blue;
+}
+.about-us:hover{
+    color: blue;
+}
+
+
 /* Discover Courses Section Custom CSS */
 .discover-courses-title{
     margin-top: 70px;

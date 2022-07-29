@@ -35,10 +35,10 @@
               </button>
               <div class="collapse navbar-collapse ml-auto" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
-                  <a class="nav-link active me-4" aria-current="page" href="#">Home</a>
-                  <a class="nav-link text-dark me-4" href="#">Courses</a>
-                  <a class="nav-link text-dark me-4" href="#">Instructors</a>
-                  <a class="nav-link text-dark me-4" href="#">About Us</a>
+                  <a class="nav-link nav-text-dark me-4 home" aria-current="page" href="#">Home</a>
+                  <a class="nav-link nav-text-dark me-4 courses" href="#offered-courses">Courses</a>
+                  <a class="nav-link nav-text-dark me-4 instructors" href="#">Instructors</a>
+                  <a class="nav-link nav-text-dark me-4 about-us" href="#man-with-laptop">About Us</a>
                   <!-- <button type="button" class="btn btn-outline-primary "><a href="#"></a>Register</button> -->
                   <button type="button" class="btn btn-outline-primary  py-2 px-4 ms-5" data-bs-toggle="modal" data-bs-target="#exampleModal">Resgister</button>
                 </div>
@@ -121,7 +121,7 @@
             <p class=" text-muted text-center w-50 mx-auto mb-5">Are you interested in web development as a career? Consider taking our web development courses to propel your career as a developer.</p>
 
             <!-- Offered Courses Section-->
-            <section class="" id="">
+            <section class="" id="offered-courses">
 
                 <div class="card mt-5 mb-5 bor border-0">
                     
@@ -136,7 +136,43 @@
                                     <div class="card-body ">
                                         <h5 class="card-title fw-bold mt-3">Fundamental Of UI/UX Design</h5>
                                         <p class="card-text text-muted">UI/UX Design brings a design centric approach to user interface and user experience, and offers skill based instructions.</p>
-                                        <h6 class="card-text text-primary fw-bold">Price: 20$ </h6>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                          <h6 class="card-text text-primary fw-bold mt-3">Price: 20$ </h6>
+                                          <!-- <button type="button" class="btn btn-primary">Enroll</button> -->
+                                          <!-- Button trigger modal -->
+                                          
+                                          
+                                          <!-- Enroll Button Modal Code Starts -->
+                                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                            Enroll
+                                          </button>
+
+
+                                          <!-- Modal -->
+                                          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                              <div class="modal-content">
+                                                <div class="modal-header">
+                                                  <h5 class="modal-title" id="staticBackdropLabel">Dear Student, Welcome To <span class="text-primary">Learner's Home</span></h5>
+                                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body my-3">
+                                                  <span class="text-success">Congratulations!</span> You have successfully enrolled in the course.
+                                                </div>
+                                                <div class="modal-footer">
+                                                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                                  <!-- <button type="button" class="btn btn-primary">Understood</button> -->
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+
+                                          <!-- Enroll Button Modal Code Ends -->
+
+
+
+
+                                        </div>
                                     </div>
     
                             </div>
@@ -151,9 +187,13 @@
                                 <img src="images/course/course-2.png" class="img-fluid rounded-3" alt="...">
                             
                                 <div class="card-body ">
-                                    <h5 class="card-title fw-bold mt-3">Javascript Basic to advanced</h5>
+                                    <h5 class="card-title fw-bold mt-3">Javascript Basic to Advanced</h5>
                                     <p class="card-text text-muted">JavaScript is the most powerful and flexible programming languages of the web. It powers the dynamic behavior on most websites.</p>
-                                    <h6 class="card-text text-primary fw-bold">Price: 20$ </h6>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                      <h6 class="card-text text-primary fw-bold mt-3">Price: 20$ </h6>
+                                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Enroll</button>
+                                      
+                                    </div>
                                 </div>
 
                             </div>
@@ -169,7 +209,10 @@
                                 <div class="card-body ">
                                     <h5 class="card-title fw-bold mt-3">Fullstack Web Development</h5>
                                     <p class="card-text text-muted">Full stack web development refers to the process of developing both client- and server-side software. You can enroll this course with us.</p>
-                                    <h6 class="card-text text-primary fw-bold">Price: 20$ </h6>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                      <h6 class="card-text text-primary fw-bold mt-3">Price: 20$ </h6>
+                                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Enroll</button>
+                                    </div>
                                 </div>
 
                             </div>
@@ -185,7 +228,10 @@
                                 <div class="card-body ">
                                     <h5 class="card-title fw-bold mt-3">Digital Marketing</h5>
                                     <p class="card-text text-muted">Digital marketing skills are critical not only for digital marketing persons but for anyone working in a business with an online presence.</p>
-                                    <h6 class="card-text text-primary fw-bold">Price: 20$ </h6>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                      <h6 class="card-text text-primary fw-bold mt-3">Price: 20$ </h6>
+                                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Enroll</button>
+                                    </div>
                                 </div>
 
                             </div>
@@ -200,7 +246,10 @@
                                 <div class="card-body ">
                                     <h5 class="card-title fw-bold mt-3">Photography Basic Rules</h5>
                                     <p class="card-text text-muted">Our photography course will help you understand the basics of light and how your eye fixes lighting and how to get your camera to take a better and perfect pictures. </p>
-                                    <h6 class="card-text text-primary fw-bold">Price: 20$ </h6>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                      <h6 class="card-text text-primary fw-bold mt-3">Price: 20$ </h6>
+                                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Enroll</button>
+                                    </div>
                                 </div>
 
                             </div>
@@ -215,7 +264,10 @@
                                 <div class="card-body ">
                                     <h5 class="card-title mt-3 fw-bold">Motion Graphics</h5>
                                     <p class="card-text text-muted">Motion graphics are pieces of animation and graphics which create the illusion of motion and rotation, and are combined with audio for use in multimedia projects.</p>
-                                    <h6 class="card-text text-primary fw-bold">Price: 20$ </h6>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                      <h6 class="card-text text-primary fw-bold mt-3">Price: 20$ </h6>
+                                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Enroll</button>
+                                    </div>
                                 </div>
 
                             </div>
@@ -226,10 +278,10 @@
                 </div>
 
 
-
-
+                
+                <!-- Offered Course Collapsable Section Code Starts-->
                 <div class="text-center mb-5">
-                    <button type="button" class="btn btn-primary px-4 py-2"><a class="d-flex justify-content-center text-light" style="text-decoration: none;" href="#know-more" data-bs-toggle="collapse">Our Advance Courses</a></button>
+                    <button type="button" class="btn btn-primary px-4 py-2"><a class="d-flex justify-content-center text-light" style="text-decoration: none;" href="#know-more" data-bs-toggle="collapse">Our Advanced Level Courses</a></button>
                 </div>
 
 
@@ -249,7 +301,10 @@
                                     <div class="card-body ">
                                         <h5 class="card-title fw-bold mt-3">Software Quality Testing (SQT)</h5>
                                         <p class="card-text text-muted">Software Quality Testing is an integral part of the software development life cycle, where software models are tested before moving on to the next stage.</p>
-                                        <h6 class="card-text text-primary fw-bold">Price: 20$ </h6>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                          <h6 class="card-text text-primary fw-bold mt-3">Price: 20$ </h6>
+                                          <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Enroll</button>
+                                        </div>
                                     </div>
     
                             </div>
@@ -266,7 +321,10 @@
                                 <div class="card-body ">
                                     <h5 class="card-title fw-bold mt-3">Cyber Security</h5>
                                     <p class="card-text text-muted">Cyber Security is one of the crucial fronts for businesses around the world. It is now essential for companies to have a infrastructure to prevent them from hackers.</p>
-                                    <h6 class="card-text text-primary fw-bold">Price: 20$ </h6>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                      <h6 class="card-text text-primary fw-bold mt-3">Price: 20$ </h6>
+                                      <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Enroll</button>
+                                    </div>
                                 </div>
 
                             </div>
@@ -282,7 +340,10 @@
                                 <div class="card-body ">
                                     <h5 class="card-title fw-bold mt-3">Database Administration (DBA)</h5>
                                     <p class="card-text text-muted">Database Administration is one of the core procedures in software development, which deals with storing and organizing data in a structured manner.</p>
-                                    <h6 class="card-text text-primary fw-bold">Price: 20$ </h6>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                      <h6 class="card-text text-primary fw-bold mt-3">Price: 20$ </h6>
+                                      <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Enroll</button>
+                                    </div>
                                 </div>
 
                             </div>
@@ -298,7 +359,10 @@
                                 <div class="card-body ">
                                     <h5 class="card-title fw-bold mt-3">Mobile App Development</h5>
                                     <p class="card-text text-muted">Due to the increase in smartphone users, companies are now focusing on developing interactive mobile applications to reach a broader audience base for Andriod, iOS and others Operating System.  </p>
-                                    <h6 class="card-text text-primary fw-bold">Price: 20$ </h6>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                      <h6 class="card-text text-primary fw-bold mt-3">Price: 20$ </h6>
+                                      <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Enroll</button>
+                                    </div>
                                 </div>
 
                             </div>
@@ -313,7 +377,10 @@
                                 <div class="card-body ">
                                     <h5 class="card-title fw-bold mt-3">Artificial Intelligence</h5>
                                     <p class="card-text text-muted">To take up an Artificial Intelligence course, you should have knowledge of mathematics, statistics, data analytics, and a clear concept about a highlevel programming languages like Python.</p>
-                                    <h6 class="card-text text-primary fw-bold">Price: 20$ </h6>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                      <h6 class="card-text text-primary fw-bold mt-3">Price: 20$ </h6>
+                                      <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Enroll</button>
+                                    </div>
                                 </div>
 
                             </div>
@@ -328,7 +395,10 @@
                                 <div class="card-body ">
                                     <h5 class="card-title mt-3 fw-bold">Data Analytics</h5>
                                     <p class="card-text text-muted">The increase in computational power and availability of low-cost internet have led Big Data in every industry. Today,  industries are leveraging the power of Big Data with the help of Data Analytics.</p>
-                                    <h6 class="card-text text-primary fw-bold">Price: 20$ </h6>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                      <h6 class="card-text text-primary fw-bold mt-3">Price: 20$ </h6>
+                                      <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Enroll</button>
+                                    </div>
                                 </div>
 
                             </div>
@@ -380,7 +450,7 @@
 
 
             <!-- Middle Section (Man With a Laptop) Starts -->
-            <section class="bg-light mb-5 mt-5 rounded-4 ">
+            <section class="bg-light mb-5 mt-5 rounded-4 " id="man-with-laptop">
 
                 <div class="d-flex justify-content-center align-items-center mb-5 flex-column flex-lg-row flex-md-row man-with-laptop border border-1 rounded-2">
 
@@ -423,7 +493,10 @@
                                 <!-- Collapse Code Starts-->
                                 <div id="read-more" class="collapse ">
                                 
-                                  <p class="" style="text-align: justify;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero odio, commodi facere, illum, maiores aliquam sint hic rem quae soluta placeat? Recusandae explicabo est ipsa facere earum neque maxime doloribus dolorem unde mollitia, laborum dicta cumque commodi, tempore non voluptatum consectetur impedit, molestias blanditiis nulla similique officia! Totam harum excepturi sequi quidem repudiandae deleniti ratione magni officiis, ullam magnam blanditiis, aspernatur quibusdam aliquid veritatis quas? Totam impedit ullam fuga velit quae officia exercitationem officiis nesciunt laudantium quia commodi amet provident cumque eligendi illum doloribus recusandae itaque blanditiis fugiat autem, reiciendis molestiae! Eaque perspiciatis, nihil dolore fuga quis eius temporibus quaerat itaque iste facere enim porro, quisquam amet iusto minus ab dolor. Odio cum aliquam error non, quis reiciendis accusamus sint aspernatur rerum deleniti expedita eligendi magnam! Nisi deleniti expedita ea reiciendis libero, maiores delectus eligendi ratione earum obcaecati dolorum nostrum ipsam quasi omnis modi fugiat perspiciatis soluta in similique aspernatur nesciunt quaerat cupiditate dicta. At nesciunt quisquam expedita doloremque neque rerum eum libero molestias, odit recusandae eaque accusamus, molestiae minus saepe praesentium repellendus maxime nostrum accusantium quis maiores. Dignissimos dolorem quis fugiat ut eius illo illum consequatur iusto libero ipsa. Impedit inventore totam dolores iusto facere praesentium? Minima, nisi doloremque.</p>
+                                  <p class="text-muted" style="text-align: justify;">At Learner’s Home online computer science program, you will learn both the fundamentals of computation and computation’s interaction with the world. Your work will involve a wide range of areas including theoretical computer science, artificial intelligence and machine learning, economics and computer science, privacy and security, data-management systems, intelligent interfaces, operating systems, computer graphics, computational linguistics, robotics, networks, architectures, program languages, and visualization. <br> <br>
+                                  You will be involved with researchers in several interdisciplinary initiatives across the University, such as the Center for Research on Computation and Society, the Institute for Applied Computational Science, the Data Science Initiative, and the Berkman Klein Center for Internet and Society. <br><br>
+                                  Examples of projects current and past students have worked on include leveraging machine learning to solve real-world sequential decision-making problems and using artificial intelligence to help conservation and anti-poaching efforts around the world.
+                                  </p>
                               </div>
                               <!-- Collapse Code End-->
 
@@ -579,6 +652,87 @@
 
 
 
+             <!-- Teachers Section Starts -->
+         <h1 class="text-center successfull-student-title">Our <span class="text-primary">Respected</span> Instructors</h1>
+         <p class=" text-muted text-center w-50 mx-auto mb-4">Working side by side with the students, Our Instructors encourage students to see with new eyes. Through coursework, assignments, quiz and casual interactions students learn and become able to cope up the challenges on a daily basis.</p>
+
+
+         <!-- Teachers Image Slider Section Strats From Here-->
+         <section class="container mb-5 instructors">
+
+            <div id="carouselExampleCaptions2" class="carousel slide " data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                
+    
+                <div class="carousel-inner border border-4 border-warning rounded-5">
+                  
+                    <div class="carousel-item active">
+                    <img  src="images/teacher/1a.jpg" class="d-block w-100 rounded-3" alt="...">
+                    <div class="carousel-caption slider-caption-div">
+                      <button class="bg-primary text-white mb-4 pt-2 pb-2 ps-5 pe-5 border border-0 rounded-2">Visit Profile</button>
+                    </div>
+                  </div>
+    
+    
+                  <div class="carousel-item">
+                    <img src="images/teacher/New Teacher/New2.jpg" class="d-block w-100 rounded-3" alt="...">
+                    <div class="carousel-caption slider-caption-div">
+                      <button class="bg-primary text-white mb-4 pt-2 pb-2 ps-5 pe-5 border border-0 rounded-2">Visit Profile</button>
+                    </div>
+                  </div>
+    
+    
+                  <div class="carousel-item">
+                    <img src="images/teacher/New Teacher/New3.jpg" class="d-block w-100 rounded-3" alt="...">
+                    <div class="carousel-caption slider-caption-div">
+                      <button class="bg-primary text-white mb-4 pt-2 pb-2 ps-5 pe-5 border border-0 rounded-2">Visit Profile</button>
+                    </div>
+                  </div>
+
+
+
+                  <div class="carousel-item">
+                    <img src="images/teacher/New Teacher/New4.jpg" class="d-block w-100 rounded-3" alt="...">
+                    <div class="carousel-caption slider-caption-div">
+                      <button class="bg-primary text-white mb-4 pt-2 pb-2 ps-5 pe-5 border border-0 rounded-2">Visit Profile</button>
+                    </div>
+                  </div>
+
+
+
+                  <div class="carousel-item">
+                    <img src="images/teacher/New Teacher/New5.jpg" class="d-block w-100 rounded-3" alt="...">
+                    <div class="carousel-caption slider-caption-div">
+                      <button class="bg-primary text-white mb-4 pt-2 pb-2 ps-5 pe-5 border border-0 rounded-2">Visit Profile</button>
+                    </div>
+                  </div>
+                  
+    
+                </div>
+    
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+    
+         </section>
+        <!-- Teachers Image Slider Section Ends Here-->
+
+         <!-- Teachers Section Ends -->
+
+
+
 
             <!-- Students Section Starts -->
             <h1 class="text-center successfull-student-title">Our <span class="text-primary">Successfull</span> Students</h1>
@@ -671,8 +825,93 @@
                 </div>
 
                 <div class="text-center mb-5">
-                    <button type="button" class="btn btn-primary px-4 py-2">See More</button>
+                    <button type="button" class="btn btn-primary px-4 py-2"><a href="#know-more" data-bs-toggle="collapse" class="text-white" style="text-decoration: none;">See More</a></button>
                 </div>
+                <!-- Students Collapsable Section Starts -->
+
+
+
+                <div class="row collapse" id="know-more">
+
+                  <div class="col col-12 col-lg-3 col-md-6 col-sm-12 mb-5">
+                      <img class="img-fluid w-100 rounded" src="images/student/student-1.png" alt="">
+                      <div class="border border-1 rounded-1 ">
+                          <h5 class="fw-semibold mt-3 ms-3 d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start">Fahim Faysal</h5>
+                          <p class="text-muted ms-3 d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start">Web Developer</p>
+                      </div>
+                  </div>
+
+                  <div class="col col-12 col-lg-3 col-md-6 col-sm-12 mb-5">
+                      <img class="img-fluid w-100" src="images/student/student-2.png" alt="">
+                      <div class="border border-1 rounded-1">
+                          <h5 class="fw-semibold mt-3 ms-3 d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start">Tania Islam</h5>
+                          <p class="text-muted ms-3 d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start">Motion Designer</p>
+                      </div>
+                  </div>
+
+                  <div class="col col-12 col-lg-3 col-md-6 col-sm-12 mb-5">
+                      <img class="img-fluid w-100" src="images/student/student-3.png" alt="">
+                      <div class="border border-1 rounded-1">
+                          <h5 class="fw-semibold mt-3 ms-3 d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start">Fuad Saif</h5>
+                          <p class="text-muted ms-3 d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start">Graphic Designer</p>
+                      </div>
+                  </div>
+
+                  <div class="col col-12 col-lg-3 col-md-6 col-sm-12 mb-5">
+                      <img class="img-fluid w-100" src="images/student/student-4.png" alt="">
+                      <div class="border border-1 rounded-1">
+                          <h5 class="fw-semibold mt-3 ms-3 d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start">Faria Rahman</h5>
+                          <p class="text-muted ms-3 d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start">UIUX Designer</p>
+                      </div>
+                  </div>
+
+
+                  <div class="col col-12 col-lg-3 col-md-6 col-sm-12 mb-5">
+                    <img class="img-fluid w-100" src="images/student/student-5.png" alt="">
+                    <div class="border border-1 rounded-1">
+                        <h5 class="fw-semibold mt-3 ms-3 d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start">Siyam Ahmed</h5>
+                        <p class="text-muted ms-3 d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start">Graphic Designer</p>
+                    </div>
+                </div>
+
+
+
+                <div class="col col-12 col-lg-3 col-md-6 col-sm-12 mb-5">
+                  <img class="img-fluid w-100" src="images/student/student-6.png" alt="">
+                  <div class="border border-1 rounded-1">
+                      <h5 class="fw-semibold mt-3 ms-3 d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start">Faysal Rahman</h5>
+                      <p class="text-muted ms-3 d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start">Motion Designer</p>
+                  </div>
+              </div>
+
+
+
+
+              <div class="col col-12 col-lg-3 col-md-6 col-sm-12 mb-5">
+                <img class="img-fluid w-100" src="images/student/Student-7.png" alt="">
+                <div class="border border-1 rounded-1">
+                    <h5 class="fw-semibold mt-3 ms-3 d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start">Arman Haque</h5>
+                    <p class="text-muted ms-3 d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start">Software Engineer</p>
+                </div>
+            </div>
+
+
+
+
+            <div class="col col-12 col-lg-3 col-md-6 col-sm-12 mb-5">
+              <img class="img-fluid w-100" src="images/student/Student-8.png" alt="">
+              <div class="border border-1 rounded-1">
+                  <h5 class="fw-semibold mt-3 ms-3 d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start">Tonmoy Ahmed</h5>
+                  <p class="text-muted ms-3 d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start">Game Developer</p>
+              </div>
+          </div>
+
+              </div>
+
+                <!-- Students Collapsable Section Ends -->
+
+
+
 
             </section>
             <!-- Students Section Ends -->
@@ -867,7 +1106,7 @@
 
 
             <!-- Bottom Section (Brand Logos) Starts -->
-                <div class="d-none d-lg-block d-xl-block brand-logos-section">
+                <!-- <div class="d-none d-lg-block d-xl-block brand-logos-section">
                         <h1 class="text-center mb-5">Trusted By Over <span class="text-primary">800+</span> Companies</h1>
 
                         <div class="my-5 d-flex justify-content-between ">
@@ -897,12 +1136,44 @@
                             </div>
 
                         </div>
-                </div>
-            <!-- Bottom Section (Brand Logos)  Ends -->
+                </div> -->
+            
+                <div class=" d-sm-block d-lg-block d-xl-block brand-logos-section">
+                  <h1 class="text-center mb-5">Trusted By Over <span class="text-primary">800+</span> Companies</h1>
+
+                    <div class="my-5 d-flex justify-content-between align-items-center flex-column flex-sm-column flex-md-row flex-lg-row flex-xxl-row ">
+
+                            <div class="brand-1 mb-4">
+                                <a href="https://www.coursera.org/" target="_blank"><img class="img-fluid" src="images/company/company-1.png" alt=""></a>
+                            </div>
+
+                            <div class="brand-2 mb-4">
+                              <a href="https://www.udemy.com/" target="_blank"> <img class="img-fluid" src="images/company/company-2.png" alt=""></a>
+                            </div>
+
+                            <div class="brand-3 mb-4">
+                              <a href="https://www.fedex.com/en-us/home.html" target="_blank">  <img class="img-fluid" src="images/company/company-3.png" alt=""></a>
+                            </div>
+
+                            <div class="brand-4 mb-4">
+                              <a href="https://study-uk.britishcouncil.org/" target="_blank">  <img class="img-fluid" src="images/company/company-4.png" alt=""></a>
+                            </div>
+
+                            <div class="brand-5 mb-4">
+                              <a href="https://www.elecom.co.jp/global/" target="_blank"> <img class="img-fluid" src="images/company/company-5.png" alt=""></a>
+                            </div>
+
+                            <div class="brand-6 mb-4">
+                              <a href="https://www.indeed.jobs/" target="_blank"> <img class="img-fluid" src="images/company/company-6.png" alt=""></a>
+                            </div>
+
+                    </div>
+
+               </div>
+            
+          <!-- Bottom Section (Brand Logos)  Ends -->
 
      </main>
-
-
 
 
 
