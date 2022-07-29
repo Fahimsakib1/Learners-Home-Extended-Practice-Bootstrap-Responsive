@@ -1,0 +1,162 @@
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFF;
+}
+
+/* All Images */
+img{
+    height: 100vh;
+}
+
+/* Discover Courses Section Custom CSS */
+.discover-courses-title{
+    margin-top: 70px;
+}
+
+/* Man With Laptop Section Custom CSS */
+.man-with-laptop{
+    margin-top: 110px;
+}
+
+.read-more-button:hover a{
+    color: white;
+
+}
+
+
+/* Successfull Students Section Custom CSS */
+.successfull-student-title{
+    margin-top: 110px;
+}
+
+
+/* Student Feedback Section Custom CSS */
+.student-feedback-title{
+    margin-top: 100px;
+}
+.rating-and-all{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 50px;
+
+}
+
+.feedback-student-name{
+    margin-top: 15px;
+}
+
+.fa-star, .fa-star-half-stroke{
+    color: orange;
+    font-size: 16px;
+}
+
+.feedback-job-title{
+    margin-top: -7px;
+}
+
+/* Student Feedback Section Side Arrow Custom CSS */
+.arrow-padding{
+    padding: 10px;
+}
+
+.arrow-text-primary{
+    color:#0d6efd ;
+}
+
+.feedback-section-arrow:hover{
+    background-color: #0d6efd;
+    color: white;
+}
+
+
+/* Toast Custom CSS */
+.toast-width{
+    width: 40%;
+}
+
+
+/* Modal Section Custom CSS */
+.modal-section{
+    margin-top: 110px;
+}
+.register-button{
+    margin-left: -100px;
+}
+.modal-body{
+    margin-top: -90px;
+}
+.registration-button:hover{
+    color: white;
+    background-color: rgb(234, 246, 109);
+    border: 2px solid black;
+}
+
+
+/* Frequently Asked Question Section Customized CSS */
+.frequently-asked-question-title{
+    margin-top: 120px;
+}
+
+
+/* Brand Logos Section */
+.brand-logos-section{
+    margin-top: 120px;
+}
+
+
+/* Brand Logos Animation CSS */
+.brand-1:hover{
+    transform: scale(1.2);
+    transition: transform 1s linear;
+}
+.brand-2:hover{
+    transform: scale(1.2);
+    transition: transform 1s linear;
+}
+
+.brand-3:hover{
+    transform: scale(1.2);
+    transition: transform 1s linear;
+}
+
+.brand-4:hover{
+    transform: scale(1.2);
+    transition: transform 1s linear;
+}
+
+.brand-5:hover{
+    transform: scale(1.2);
+    transition: transform 1s linear;
+}
+
+.brand-6:hover{
+    transform: scale(1.2);
+    transition: transform 1s linear;
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer Customized CSS  */
+.footer-section{
+    margin-top: 100px;
+}
+.footer-terms-and-condition{
+    text-decoration: none;
+    color: white;
+}
+.footer-email, .forter-mobile{
+    margin-top: -14px;
+}
+
+
+
