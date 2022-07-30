@@ -159,7 +159,14 @@ img{
 }
 
 
+/* Any Suggestion Section */
+.any-suggestion-title{
+    margin-top: 1000px;
+}
 
+.suggestion-bg-light{
+    background-color: rgb(200, 211, 230);
+}
 
 
 
@@ -178,6 +185,5 @@ img{
 .footer-email, .forter-mobile{
     margin-top: -14px;
 }
-
 
 
