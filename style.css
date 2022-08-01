@@ -6,10 +6,17 @@ body{
     background-color: #FFFF;
 }
 
+.carousel-inner img{
+    /* Jodi kom percentage hobe pic toto dark hobe. 10% hole ekdom kalo hobe. 80% thakle bright thakbe */
+    filter: brightness(100%);  
+}
+
 /* All Images */
 img{
     height: 100vh;
 }
+
+
 
 /* Nav Bar Custom CSS */
 
@@ -30,6 +37,14 @@ img{
 .about-us:hover{
     color: blue;
 }
+
+.nav-bar-logo{
+    width: 50px;
+    height: 20px;
+}
+
+
+
 
 
 /* Discover Courses Section Custom CSS */
@@ -167,10 +182,6 @@ img{
 .suggestion-bg-light{
     background-color: rgb(200, 211, 230);
 }
-
-
-
-
 
 
 
